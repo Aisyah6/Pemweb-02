@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="website siti aisah">
+    <title>website siti aisah</title>
+    <link rel="icon" type="image/x-icon" href="logobuah.png" />
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            
+            
+        }
+        .container {
+            max-width: 2000px;
+            padding: 20px;
+        }
+        #header {
+            background-color: #11807c;
+            color: rgb(246, 239, 239);
+            text-align: align left;
+            padding: 10px;
+        }
+        .image-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+        img {
+            width: 500px;
+            height: auto;
+
+        }
+        .table-container {
+            margin: 20px 0;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+        }
+        table, th, td {
+            border: 1px solid black;
+        }
+        th, td {
+            padding: 10px;
+            text-align: center;
+        }
+        .form-container {
+            margin: 20px 0;
+
+        }
+        h2{
+            background-color: white;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div id="header">
+            <h1>Menjual Berbagai Jenis Buah Segar</h1>
+        </div>
+        <h2>Tentang Kami </h2>
+        <p id="penjual buah ">Kami menjual berbagai macam buah segar seperti apel, pisang, jeruk, dan mangga.
+            Buah-buah ini dipanen langsung dari kebun lokal untuk memastikan kesegaran dan kualitas terbaik.
+        </p></p>
+    </div>
+</div>
+</body>
+</html>
+
+
+        <!-- Image-->
+        <div class="image-container">
+            <h2></h2>
+            <img src="logobuah.png" alt="Placeholder Image">
+        </div>
+
+        <!-- List  -->
+        <h2>List pembeli</h2>
+        <ul>
+            <li>ka nabila</li>
+            <li>ka letty</li>
+            <li>ka elsi</li>
+        </ul>
+
+        <!-- Table -->
+        <div class="table-container">
+            <h2>menjual berbagai semua jenis buah</h2>
+            <table>
+                <tr>
+                    <th>Item</th>
+                    <th>Quantity</th>
+                    <th>Price</th>
+                </tr>
+                <tr>
+                    <td>Apples</td>
+                    <td>10</td>
+                    <td>Rp.15.000</td>
+                </tr>
+                <tr>
+                    <td>Bananas</td>
+                    <td>5</td>
+                    <td>Rp.50.000</td>
+                </tr>
+            </table>
+        </div>
+
+        <!-- Form  -->
+        <div class="form-container">
+            <h2>Form Pemesanan </h2>
+            <form action="#" method="POST">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" placeholder=""><br><br>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" placeholder=""><br><br>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" placeholder=""></textarea><br><br>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+</body>
+</html>
